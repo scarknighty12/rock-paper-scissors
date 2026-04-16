@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main card */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Title */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Buttons layout */
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Buttons styling */
+button {
+    background: #ffffff;
+    color: #333;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+button:hover {
+    transform: translateY(-3px);
+    background: #f0f0f0;
+}
+
+/* Click effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Disabled buttons */
+button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+/* Results section */
+.results p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Winner text */
+#winner {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
